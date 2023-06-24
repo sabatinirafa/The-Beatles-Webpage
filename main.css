@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #e0e0e0;
+  background-color: #3a3a3a;
+}
+
+h2 {
+  margin: 32px;
+  font-size: 2em;
+}
+
+/* Header */
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: 'bootle';
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #2d2d2d;
+}
+
+header li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 20px;
+}
+
+header li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Section */
+
+#main-image {
+  width: 100%;
+}
+
+section .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#about p {
+  text-indent: 32px;
+  margin-bottom: 16px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#member-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+}
+
+.member {
+  width: 20%;
+}
+
+.member img {
+  width: 100%;
+}
+
+.member-name {
+  text-align: center;
+  padding: 24px;
+}
+
+.member-name span {
+  font-family: 'bootle';
+
+}
+
+/* Albuns */
+
+#album-list {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 6.66%;
+}
+
+.album {
+  width: 20%;
+}
+
+.album img {
+  width: 100%;
+}
+
+.album ul {
+  list-style: none;
+}
+
+.album h3 {
+  padding: 16px;
+  text-align: center;
+  font-weight:900;
+  font-size: 1.4em;
+}
+
+.album ul li {
+  padding: 4px;
+  text-align: center;
+}
+
+.album ul li:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #e0e0e0;
+}
+
+/* contact */
+
+#contact {
+  margin-bottom: 48px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 32px;
+}
+
+.contact-container form,
+.contact-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 0 48px;
+}
+
+.contact-container div p {
+  align-items: flex-start;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-container h3 {
+  padding: 16px;
+}
+
+.contact-container form input,
+.contact-container form textarea,
+.contact-container button {
+  width: 320px;
+  background-color: #3a3a3a;
+  border: #2d2d2d solid 1px;
+  padding: 8px;
+  color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.contact-container button {
+  background-color: #2d2d2d;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.contact-container button:hover {
+  background-color: #3a3a3a;
+}
+
+.contact-container textarea {
+  height: 180px;
+  resize: none;
+}
+
+
+/* footer */
+
+
+footer {
+  padding: 16px 0;
+  background-color: #2d2d2d;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
+}
+
+#social-logos {
+  display: flex;
+  gap: 16px;
+}
+
+
+
+#social-logos img {
+  width: 30px;
+  border-radius: 10px;
+
+}
